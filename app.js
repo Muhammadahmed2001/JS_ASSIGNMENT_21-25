@@ -108,5 +108,51 @@
 // document.write("User input : " + user +"<br />");
 // document.write("Title case : " + user[0].toUpperCase()+user.slice(1));
 
+//..question 12..//
+
+// var num = 35.36;
+// var str = num.toString();
+// console.log(str.replace(".",""));
 
 
+//..question 13..//
+
+
+// var userName = prompt("Enter your name");
+// for (var i = 0; i < userName.length; i++) {
+//     if ((userName.charCodeAt() == "33") || (userName.charCodeAt() == "44") || (userName.charCodeAt() == "46") || (userName.charCodeAt() == "64")){
+//         console.log(alert("Please Enter a valid username"));
+//         break;
+//     }else{
+//         document.write("Hello ! MR " + userName);
+//         break;
+//     }
+// }
+
+
+//..question 14..//
+
+
+// var userInput = prompt("Wellcome to Karachi Bakery. What do you want to order Sir/Ma'am ?");
+// var insensitive = userInput.toLowerCase();
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var stock = [];
+// for (var i = 0; i < items.length; i++) {
+//     if(insensitive == items[i]){
+//         stock = items[i];     
+//     }
+// }
+// // console.log(stock);
+// if (insensitive == stock) {
+//     document.write(userInput + " is <b>available</b> at index " + items.indexOf(insensitive) + " in our bakery")
+// }
+// else{
+//     document.write( "We are sorry. " + userInput + " is <b> not available</b> in our bakery")
+// }
+
+
+
+
+//..question 15..//
+
+var password = prompt("Enter your password");
