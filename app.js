@@ -153,6 +153,22 @@
 
 
 
-//..question 15..//
+//..question 16..//
 
-var password = prompt("Enter your password");
+// var str = prompt("Write any thing");
+// for(var i = 0 ; i < str.length ; i++){
+//     document.write(str[i].split("")+"<br />");
+// }
+
+
+//..question 17..//
+
+// var str = prompt("Enter the word");
+// var lastCharacter = str.split("").pop();
+// document.write("User input : "+ str +"<br />");
+// document.write("Last Character : "+ lastCharacter);
+
+
+
+
+
